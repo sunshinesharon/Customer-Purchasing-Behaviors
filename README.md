@@ -3,12 +3,12 @@ Data Science Institute - Cohort 5 - Team 20 Project
 Goal: Predicting customer loyalty scores using demographic and purchasing behavior data. 
 
 # Members
-Ann Paul
-Mina Wang
-Nedim Igal Ers Benveniste
-Samruddhi Rahate
-Sharon Jacob
-Suad Omar
+* Ann Paul
+* Mina Wang
+* Nedim Igal Ers Benveniste
+* Samruddhi Rahate
+* Sharon Jacob
+* Suad Omar
 
 # Project Overview
 - Source: [Kaggle - Customer Purchasing Behaviors](https://www.kaggle.com/datasets/hanaksoy/customer-purchasing-behaviors)
