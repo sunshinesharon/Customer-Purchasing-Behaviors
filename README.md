@@ -18,21 +18,34 @@ This project applies regression modeling to understand the impact of age, income
 
 To address our business question, we will analyze key factors such as purchase frequency, salary, and region to determine their impact on loyalty scores and validate the results by splitting the dataset into training and validation portions. The primary risks involve the dataset's limited scope and potential outdatedness, which may limit the reliability and generalizability of our conclusions.
 
+
+
 # Methodology
 Steps taken:
-- Data Cleaning
-- Pre-analysis, finding corrolation
-- Regression analysis and validation
+- Data Cleaning: Handling missing values, removing inconsistencies, and ensuring data readiness.
+- Pre-analysis, finding correlation: Understanding patterns, correlations, and data distribution.
+- Regression analysis and validation: Applying linear regression models to determine key loyalty drivers. and create training and test sets, assessing model accuracy.
+- Visualization: Creating plots to represent insights and model results.
 - Conclusion
-- Visualization
 
-Python libraries:
+Technical Stack:
+Programming Language: Python
+Libraries Used:
 - Numpy: matrix operations
 - Pandas: data analysis
 - Matplotlib: creating graphs and plots
 - Seaborn: enhancing matplotlib plots
 - SKLearn: linear regression analysis
 - etc...
+
+# Project Scope
+In-Scope
+This project involves conducting regression analysis on customer demographic and purchasing data to identify key factors that impact customer loyalty scores. The analysis will be validated through data splitting and performance metrics to ensure reliability. Additionally, we will provide insights and recommendations for customer retention strategies based on the findings.
+
+Stakeholders:
+- Marketing Teams – Utilize insights for campaign optimization.
+- Customer Relationship Managers – Improve customer engagement and retention strategies.
+- Business Strategists – Align loyalty programs with customer behaviour trends.
 
 # Data Cleaning
 Results and findings
