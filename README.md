@@ -94,11 +94,37 @@ Results:
 - There are no outliers in the data
 
 # Regression analysis and validation
-Steps, justifications, findings, visualization
-...
+Objective: analyze the dataset using 2 different kinds of regression methods, evaluate accuracy and map the factors in order of importance to loyalty score prediction
+
+Method (Steps taken):
+- Apply encoder on categorical variable (Region)
+- Split data into training and test dataset
+- Scale both datasets separately
+- Select model:
+  Linear Regression Model: select LinearRegression()
+  Random Forest Regressor: select RandomForestRegressor()
+- Fit model using training dataset
+- Predict results with test dataset
+- Evaluate accuracy of the model using mean squared error and r2 score
+| model | mean_squared_error | r2 score |
+| --- | --- | --- |
+| Linear Regression | 0.03679285020674572 | 0.9910984665934057 |
+| Random Forest Regression | 0.0020716666666666488 | 0.9994987882173564 |
+- Apply cross validation to evaluate robustness of the model (looking at mean r2 score and standard deviation)
+- Extract feature importance from the model and plot it as a barplot in order of importance to the loyalty score prediction
+![bar plot](images/bar_plot.png)
+
+Results:
+- The most importance factor in predicting loyalty score is annual income, followed by age, purchase amount and purchase frequency
+- The random forest regressor outperformed linear regression in terms of the r2 score and mean squared error
+- If businesses want to identify potential customers that will have high loyalty score, they should target high income induviduals
 
 # Conlusion
-...
+This project successfully applied regression modeling to investigate the impact of age, income, and region on customer loyalty. The analysis identified annual income as the most influential factor, followed by age, purchase amount, and purchase frequency. The Random Forest Regressor gave the same result but demonstrated superior performance compared to linear regression, offering better predictive accuracy.
+
+While the findings provide useful insights, certain limitations must be acknowledged. The dataset's small size (238 entries) and potential biases—such as regional homogeneity or data collected from a single store—limit the generalizability of the results. Additionally, the absence of purchase date information introduces uncertainty regarding the data's alignment with current market conditions.
+
+To improve future analyses, we recommend expanding the dataset to cover diverse regions, multiple stores, and different time periods. Despite these limitations, the results offer valuable guidance for stakeholders seeking to enhance customer retention strategies by prioritizing high-income individuals as potential loyal customers.
 
 # Links to personal links
 | Name | Links |
