@@ -40,8 +40,7 @@ Python
 - Pandas: data analysis
 - Matplotlib: creating graphs and plots
 - Seaborn: enhancing matplotlib plots
-- SKLearn: linear regression analysis
-- etc...
+- SKLearn: regression analysis
 
 # Project Scope
 ### In-Scope
@@ -53,13 +52,46 @@ This project involves conducting regression analysis on customer demographic and
 - Business Strategists – Align loyalty programs with customer behaviour trends.
 
 # Data Cleaning
-Results and findings
-...
+Objective: cleaning any missing values and checking whether there are any non-numerical values to be transformed, and summarizing the general statistics on the dataset
+
+Method:
+- .info() was used to check for column types and missing values
+- .unique() was used to check for unique values in categorical columns
+- .describe() was used to generate summary statistics
+
+Results:
+- No missing values in the dataset
+- One categorical factor was found: Region (North, South, West, East)
+- Summary statistics shown below:
+  | description  | user_id  | age | annual_income  | purchase_amount | loyalty_score | purchase_frequency |
+  | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+  | count | 238.000000 | 238.000000 | 238.000000 | 238.000000 | 238.000000 | 238.000000 |
+  | mean | 119.500000 | 38.676471 | 57407.563025 | 425.630252 | 6.794118 | 19.798319 |
+  | std | 68.848868 | 9.351118 | 11403.875717 | 140.052062 | 1.899047 | 4.562884 |
+  | min | 1.000000 | 22.000000 | 30000.000000 | 150.000000 | 3.000000 | 10.000000 |
+  | 25% | 60.250000 | 31.000000 | 50000.000000 | 320.000000 | 5.500000 | 17.000000 |
+  | 50% | 119.500000 | 39.000000 | 59000.000000 | 440.000000 | 7.000000 | 20.000000 |
+  | 75% | 178.750000 | 46.750000 | 66750.000000 | 527.500000 | 8.275000 | 23.000000 |
+  | max | 238.000000 | 55.000000 | 75000.000000 | 640.000000 | 9.500000 | 28.000000 |
 
 # Exploratory Analysis 
-Summary of raw data
-Correlation, biggest contributing factors, should we include all factors, etc
-...
+Objective: understand and visualize the data, identify any outliers if applicable, explore correlations and how the loyalty score changes with each factor
+
+Method: 
+- Visualize distribution of key variables using histograms (age, annual income, purchase amount, purchase frequency and loyalty score)
+- Visualizing the loyalty score in detail using a countplot
+![count plot](images/count_plot.png)
+- Detecting outliers and checking normality using boxplots
+![box plots](images/box_plot.png)
+- Using heat map to understand feature correlation
+![heat map](images/heat_map_correlation.png)
+- Using pairplot to understand the correlation between each factor and the loyalty score
+![pair plot](images/pair_plot.png)
+
+Results:
+- There's a strong correlation between loyalty score and purchase amount as well as annual income
+- The numerical factors have a positive correlation to loyalty score. Ex. the higher the annual income, the higher the loyalty score.
+- There are no outliers in the data
 
 # Regression analysis and validation
 Steps, justifications, findings, visualization
@@ -67,3 +99,13 @@ Steps, justifications, findings, visualization
 
 # Conlusion
 ...
+
+# Links to personal links
+| Name | Links |
+| --- | --- |
+| Ann Paul | Link1 |
+| Mina Wang | Link2 |
+| Nedim Igal Ers Benveniste | Link3 |
+| Samruddhi Rahate | Link4 |
+| Sharon Jacob | Link5 |
+| Suad Omar | Link6 |
