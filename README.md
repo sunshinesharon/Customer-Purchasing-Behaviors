@@ -106,10 +106,11 @@ Method (Steps taken):
 - Fit model using training dataset
 - Predict results with test dataset
 - Evaluate accuracy of the model using mean squared error and r2 score
-| model | mean_squared_error | r2 score |
-| --- | --- | --- |
-| Linear Regression | 0.03679285020674572 | 0.9910984665934057 |
-| Random Forest Regression | 0.0020716666666666488 | 0.9994987882173564 |
+  | model | mean_squared_error | r2 score |
+  | --- | --- | --- |
+  | Linear Regression | 0.03679285020674572 | 0.9910984665934057 |
+  | Random Forest Regression | 0.0020716666666666488 | 0.9994987882173564 |
+
 - Apply cross validation to evaluate robustness of the model (looking at mean r2 score and standard deviation)
 - Extract feature importance from the model and plot it as a barplot in order of importance to the loyalty score prediction
 ![bar plot](images/bar_plot.png)
