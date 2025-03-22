@@ -131,7 +131,7 @@ To improve future analyses, we recommend expanding the dataset to cover diverse 
 | Name | Links |
 | --- | --- |
 | Ann Paul | Link1 |
-| Mina Wang | Link2 |
+| Mina Wang | https://www.youtube.com/watch?v=4oF7Cbw1FlQ |
 | Nedim Igal Ers Benveniste | Link3 |
 | Samruddhi Rahate | Link4 |
 | Sharon Jacob | Link5 |
