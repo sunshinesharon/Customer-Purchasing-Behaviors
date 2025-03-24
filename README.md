@@ -130,10 +130,7 @@ To improve future analyses, we recommend expanding the dataset to cover diverse 
 # Links to personal links
 | Name | Links |
 | --- | --- |
-| Ann Paul | Link1 |
-<<<<<<< HEAD
-| Mina Wang | Link2 |
-| Nedim Igal Ers Benveniste | Link3 |
+| Ann Paul | https://drive.google.com/file/d/1TUupWbyYkKnLf2sPlg0Rlc3NZeA7_KA6/view?usp=sharing |
 | Mina Wang | https://www.youtube.com/watch?v=4oF7Cbw1FlQ |
 | Nedim Igal Ers Benveniste | https://youtu.be/BFsTErMnlxI |
 | Samruddhi Rahate | https://youtu.be/dGhqGGIgUm4 | 
