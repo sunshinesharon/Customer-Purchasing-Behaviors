@@ -120,7 +120,7 @@ Results:
 - The random forest regressor outperformed linear regression in terms of the r2 score and mean squared error
 - If businesses want to identify potential customers that will have high loyalty score, they should target high income induviduals
 
-# Conlusion
+# Conclusion
 This project successfully applied regression modeling to investigate the impact of age, income, and region on customer loyalty. The analysis identified annual income as the most influential factor, followed by age, purchase amount, and purchase frequency. The Random Forest Regressor gave the same result but demonstrated superior performance compared to linear regression, offering better predictive accuracy.
 
 While the findings provide useful insights, certain limitations must be acknowledged. The dataset's small size (238 entries) and potential biases—such as regional homogeneity or data collected from a single store—limit the generalizability of the results. Additionally, the absence of purchase date information introduces uncertainty regarding the data's alignment with current market conditions.
@@ -132,7 +132,7 @@ To improve future analyses, we recommend expanding the dataset to cover diverse 
 | --- | --- |
 | Ann Paul | Link1 |
 | Mina Wang | https://www.youtube.com/watch?v=4oF7Cbw1FlQ |
-| Nedim Igal Ers Benveniste | Link3 |
+| Nedim Igal Ers Benveniste | https://youtu.be/BFsTErMnlxI |
 | Samruddhi Rahate | Link4 |
 | Sharon Jacob | Link5 |
 | Suad Omar | https://www.youtube.com/watch?v=CSIpB8BzUDM |
